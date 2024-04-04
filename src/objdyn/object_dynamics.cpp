@@ -115,8 +115,8 @@ VectorXd Objdyn::h(const VectorXd& param, const Vector6d& vel, const Vector6d& a
   vr = vel.head(3);
   omega = vel.tail(3);
 
-  FT_estimated.head(3) = mass*(ar + alpha.cross(com) + omega.cross(omega.cross(com)) - g);
-  FT_estimated.tail(3) = Ir*alpha + omega.cross(Ir*omega) + mass*com.cross(ar-g);
+  FT_estimated.head(3) = mass*(ar + alpha.cross(com) + omega.cross(omega.cross(com)) + g);
+  FT_estimated.tail(3) = Ir*alpha + omega.cross(Ir*omega) + mass*com.cross(ar+g);
 
   return FT_estimated; 
 }
