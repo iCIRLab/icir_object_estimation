@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>kimm_object_estimation</name>
+  <name>icir_object_estimation</name>
   <version>0.0.1</version>
-  <description>The kimm_object_estimation package</description>
+  <description>The icir_object_estimation package</description>
 
-  <maintainer email="jspark2090@kimm.re.kr">Jinseong Park</maintainer>
+  <maintainer email="js.park@cnu.ac.kr">Jinseong Park</maintainer>
 
   <license>MIT</license>
 

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.4)
-project(kimm_object_estimation)
+project(icir_object_estimation)
 
 add_compile_options(-std=c++17 -Ofast)
 
@@ -43,9 +43,9 @@ include_directories(
 
 ## library
 SET(${PROJECT_NAME}_HEADERS  
-  include/kimm_object_estimation/main/kalman.hpp
-  include/kimm_object_estimation/main/extendedkalman.hpp
-  include/kimm_object_estimation/objdyn/object_dynamics.hpp
+  include/icir_object_estimation/main/kalman.hpp
+  include/icir_object_estimation/main/extendedkalman.hpp
+  include/icir_object_estimation/objdyn/object_dynamics.hpp
 )
 SET(${PROJECT_NAME}_SOURCES  
   src/main/kalman.cpp

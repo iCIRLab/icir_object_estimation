@@ -9,7 +9,7 @@
 #include <vector>
 #include <Eigen/Dense>
 
-#include "kimm_object_estimation/main/kalman.hpp"
+#include "icir_object_estimation/main/kalman.hpp"
 
 int main(int argc, char* argv[]) {
 

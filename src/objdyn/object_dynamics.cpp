@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <complex>
-#include "kimm_object_estimation/objdyn/object_dynamics.hpp"
+#include "icir_object_estimation/objdyn/object_dynamics.hpp"
 
 using namespace std;
 using namespace Eigen;

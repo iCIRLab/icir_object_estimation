@@ -3,8 +3,8 @@
 #include <Eigen/Dense>
 
 // #include "kalman/main/kalman.hpp"
-#include "kimm_object_estimation/main/extendedkalman.hpp"
-#include "kimm_object_estimation/objdyn/object_dynamics.hpp"
+#include "icir_object_estimation/main/extendedkalman.hpp"
+#include "icir_object_estimation/objdyn/object_dynamics.hpp"
 
 int main(int argc, char* argv[]) {
 
